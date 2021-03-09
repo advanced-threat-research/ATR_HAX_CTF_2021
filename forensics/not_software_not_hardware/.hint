@@ -1,0 +1,1 @@
+Use binwalk and extract the filesystem and look for clues. Is there a common linux file that stores passwords?  Use a password cracking tool and a good wordlist to FASTTRACK your cracking efforts.

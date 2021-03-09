@@ -1,0 +1,2 @@
+Work the problem in sections. Tackle one rule at a time or part of a rule and save the output before starting the next rule. You can use things like Regex (grep and ggrep) for pattern searching or write your own pattern search using loops and 'if then' statements in Python. One method is easier than the other.
+3 unique digits does not mean that digits cannot be repeated. (e.g. 'pass1wo1r3d5' still meets this rule.)

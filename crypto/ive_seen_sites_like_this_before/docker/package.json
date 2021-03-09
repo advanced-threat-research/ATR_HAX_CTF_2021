@@ -1,0 +1,13 @@
+{
+    "name": "ATR_CTF_Bitflip",
+    "version": "1.0.0",
+    "description": "Node.js on Docker",
+    "author": "Sam Quinn <sam_quinn@mcafee.com>",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.16.1"
+    }
+}

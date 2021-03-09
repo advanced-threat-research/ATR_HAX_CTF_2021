@@ -1,0 +1,1 @@
+The 'unbreakable' encryption is One Time Pad but the key is used multiple times. Try to guess partial keys based on words that the actors likely used. You can test your guess by trying to decrypt parts of the other files in the same position.

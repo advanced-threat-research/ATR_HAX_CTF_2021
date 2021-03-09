@@ -1,0 +1,36 @@
+<html>
+<body style="font-family: Courier New, Courier, monospace">
+
+<h1 style="font-family: Helvetica, Sans-Serif; text-align: center">A Picture is Worth a Thousand Vulns</h1>
+<img src="range_extender.png" alt="A Popular WiFi Range Extender" style="display: block; margin-left: auto; margin-right: auto; width: 25%">
+<p>You've come across a popular WiFi range extender at the store and decided to make it your next target. Before putting down the cash to buy the thing, you decide to do some recon at home to see if it's worth your time. After all, a good hacker can find out all sorts of things without even opening the box...</p>
+<form action="check_answers.php" method="post">
+  <p>What is the primary SoC/CPU on the device?</p>
+  <input type="radio" name="question1" value="CYW43362" required> CYW43362<br>
+  <input type="radio" name="question1" value="ATSAMR30G18A" required> ATSAMR30G18A<br>
+  <input type="radio" name="question1" value="RS9116N-DBT0-BRS" required> RS9116N-DBT0-BRS<br>
+  <input type="radio" name="question1" value="RTL8197D" required> RTL8197D<br>
+
+  <p>What architecture runs on this CPU?</p>
+  <input type="radio" name="question2" value="MIPS" required> MIPS<br>
+  <input type="radio" name="question2" value="ARM" required> ARM<br>
+  <input type="radio" name="question2" value="PowerPC" required> PowerPC<br>
+  <input type="radio" name="question2" value="x86" required> x86<br>
+
+  <p>What version of the Linux kernel runs on the latest firmware? (Answer should be in the form X.X.X or X.X.XX or X.XX.X or X.XX.XX).</p>
+  <input type="text" name="question3" pattern="^[0-9]\.[0-9]{1,2}\.[0-9]{1,2}$" required size="40">
+
+  <p>What useful Linux tools are present on the latest firmware?</p>
+  <input type="checkbox" name="question4a" value="tftp"> tftp<br>
+  <input type="checkbox" name="question4b" value="wget"> wget<br>
+  <input type="checkbox" name="question4c" value="netcat"> netcat<br>
+  <input type="checkbox" name="question4d" value="gdbserver"> gdbserver<br>
+
+  <p>What is the login password for the telnetd server?</p>
+  <input type="text" name="question5" required size="40">
+  
+  <br><br><input type="submit" value="Submit Answers">
+</form>
+
+</body>
+</html>

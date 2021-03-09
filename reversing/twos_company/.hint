@@ -1,0 +1,1 @@
+Try to use dynamic analysis (GDB) or static analysis (Ghidra/IDA) to figure out what the binary is supposed to do. This will tell you the next step. At that stage pay special attention to the required file format including special characters such as new_line. It may be easiest to view your files in hex format.
